@@ -1,0 +1,96 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  display: flex;
+}
+
+aside {
+  background-color: #fef7e2;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+aside button {
+  width: 80%;
+  background-color: #ffdf7f;
+  color: #732405;
+  border: none;
+  margin-top: 40px;
+  margin-left: 15px;
+  padding-block: 1.5rem;
+  border-radius: 30px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 25px;
+}
+.container {
+  margin-left: 30px;
+}
+
+.cardHoney {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  background-color: #fef7e2;
+  margin-right: 10px;
+  overflow: hidden;
+  border-radius: 40px;
+  flex-grow: 1;
+}
+
+.cardHoney > button {
+  border-radius: 30px;
+  padding: 8px;
+  border: none;
+  background-color: #ffdf7f;
+  color: #732405;
+  margin-bottom: 20px;
+}
+
+.cardHoney p {
+  font-weight: bold;
+  color: #732405;
+}
+
+.containerText {
+  width: 95%;
+  background-color: #fef7e2;
+  border-radius: 5%;
+}
+
+h2 {
+  font-size: 50px;
+  color: #732405;
+}
+h1 {
+  font-size: 50px;
+  color: #732405;
+}
+
+.containerText h3 {
+  padding-top: 20px;
+  padding-left: 20px;
+  color: #732405;
+  font-weight: bold;
+}
+
+.containerText p {
+  padding: 20px;
+  color: #732405;
+}
+
+.containerText img {
+  margin: 20px;
+  border-radius: 5%;
+}
